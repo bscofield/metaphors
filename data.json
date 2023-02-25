@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Conflict",
+    "categories": ["society", "history"],
+    "description": "",
+    "touchstones": [
+      "winners and losers",
+      "strategy and tactics",
+      "retreat",
+      "beachhead",
+      "reconnaissance"
+    ],
+    "examples": [
+      "chess",
+      "markets",
+      "evolution"
+    ]
+  },
+  {
+    "name": "Ecosystem",
+    "categories": ["biology"],
+    "description": "An ecosystem is a complex system built on the interaction of disparate species.",
+    "touchstones": [
+      "predation",
+      "producers / consumers",
+      "resilience",
+      "focus on groups rather than individuals"
+    ],
+    "examples": [
+      "Software ecosystem",
+      "Economies"
+    ]
+  },
+  {
+    "name": "Fitness landscape",
+    "categories": ["biology", "visualization"],
+    "description": "",
+    "touchstones": [
+      "fitness = height",
+      "local maxima",
+      "local minima"
+    ]
+  },
+  {
+    "name": "Organism",
+    "categories": ["biology"],
+    "description": "",
+    "touchstones": [
+      "organ systems",
+      "division of responsibility",
+      "cell turnover",
+      "individual vs. group fitness"
+    ]
+  },
+  {
+    "name": "Physical space",
+    "categories": ["physics", "perception", "everyday experience"],
+    "description": "",
+    "touchstones": [
+      "distance",
+      "elevation",
+      "maps"
+    ],
+    "examples": [
+      "Fitness landscape",
+      "Life is a journey",
+      "Map of science"
+    ]
+  },
+  {
+    "name": "Symbiosis",
+    "categories": ["biology"],
+    "description": "",
+    "touchstones": [
+      "parasitism",
+      "mutualism",
+      "commensalism"
+    ]
+  }
+]
