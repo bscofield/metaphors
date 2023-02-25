@@ -12,7 +12,7 @@ fetch('./data.json').then((response) => response.json()).then(metaphors => {
   }
 
   document.querySelector("#metaphor h2").innerText = current.name
-  document.querySelector("#metaphor a").href = "/#"+current.name.toLowerCase()
+  document.querySelector("#metaphor a").href = "./#"+current.name.toLowerCase()
   if (current.description) {
     document.querySelector("#metaphor p#description").innerText = current.description
   }
