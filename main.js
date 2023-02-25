@@ -4,7 +4,7 @@ fetch('./data.json').then((response) => response.json()).then(metaphors => {
 
   const hash = window.location.hash
   if (hash !== "") {
-    const name = hash.slice(1)
+    const name = decodeURI(hash.slice(1))
     const candidate = metaphors.find(element => element.name.toLowerCase() === name)
     if (candidate) {
       current = candidate
@@ -12,6 +12,7 @@ fetch('./data.json').then((response) => response.json()).then(metaphors => {
   }
 
   document.querySelector("#metaphor h2").innerText = current.name
+  document.querySelector("#metaphor a").href = "/#"+current.name.toLowerCase()
   if (current.description) {
     document.querySelector("#metaphor p#description").innerText = current.description
   }
