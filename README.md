@@ -4,4 +4,4 @@ An [Oblique Strategies](https://en.wikipedia.org/wiki/Oblique_Strategies)-alike,
 
 ## Contributing
 
-Got a favorite metaphor that's not in the list? Open a pull request and add it to data.json!
+Got a favorite metaphor that's not in the list? Open a pull request and add it to /data!
