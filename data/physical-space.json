@@ -1,0 +1,15 @@
+{
+  "name": "Physical space",
+  "categories": ["physics", "perception", "everyday experience"],
+  "description": "",
+  "touchstones": [
+    "distance",
+    "elevation",
+    "maps"
+  ],
+  "examples": [
+    "Fitness landscape",
+    "Life is a journey",
+    "Map of science"
+  ]
+}

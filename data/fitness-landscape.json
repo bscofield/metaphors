@@ -1,0 +1,10 @@
+{
+  "name": "Fitness landscape",
+  "categories": ["biology", "visualization"],
+  "description": "",
+  "touchstones": [
+    "fitness = height",
+    "local maxima",
+    "local minima"
+  ]
+}

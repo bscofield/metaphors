@@ -1,0 +1,15 @@
+{
+  "name": "Ecosystem",
+  "categories": ["biology"],
+  "description": "An ecosystem is a complex system built on the interaction of disparate species.",
+  "touchstones": [
+    "predation",
+    "producers / consumers",
+    "resilience",
+    "focus on groups rather than individuals"
+  ],
+  "examples": [
+    "Software ecosystem",
+    "Economies"
+  ]
+}

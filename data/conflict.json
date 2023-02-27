@@ -1,0 +1,17 @@
+{
+  "name": "Conflict",
+  "categories": ["society", "history"],
+  "description": "",
+  "touchstones": [
+    "winners and losers",
+    "strategy and tactics",
+    "retreat",
+    "beachhead",
+    "reconnaissance"
+  ],
+  "examples": [
+    "chess",
+    "markets",
+    "evolution"
+  ]
+}
