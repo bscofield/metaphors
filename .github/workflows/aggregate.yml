@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: 18.x
       - name: Build data.json
-        uses: actions/github-script@v3
+        uses: actions/github-script@v6
         with:
           script: |
             const fs = require("fs");
