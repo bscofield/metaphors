@@ -6,6 +6,8 @@ const hydrate = () => {
   document.querySelector("#metaphor a").href = "./#"+metaphor.name.toLowerCase()
   if (metaphor.description) {
     document.querySelector("#metaphor p#description").innerText = metaphor.description
+  } else {
+    document.querySelector("#metaphor p#description").innerText = ""
   }
 
   const touchstones = document.querySelector("#metaphor ul#touchstones");
