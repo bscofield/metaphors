@@ -1,0 +1,18 @@
+{
+  "name": "Immune system",
+  "categories": ["biology"],
+  "description": "A complex system in which agents have distinct roles related to identifying and neutralizing threats.",
+  "touchstones": [
+    "antifragility",
+    "antibodies",
+    "layers of protection",
+    "recognition",
+    "learning",
+    "native / foreign distinctions"
+  ],
+  "examples": [
+    "Road travel networks",
+    "Cybersecurity",
+    "Espionage"
+  ]
+}
