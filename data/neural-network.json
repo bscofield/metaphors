@@ -1,0 +1,14 @@
+{
+  "name": "Neural network",
+  "categories": ["biology"],
+  "description": "A network of interconnected nodes.",
+  "touchstones": [
+    "neurons",
+    "connection weights",
+    "back propagation / learning"
+  ],
+  "examples": [
+    "Machine learning",
+    "Brains"
+  ]
+}
