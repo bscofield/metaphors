@@ -2,7 +2,7 @@
   "name": "Symbiosis",
   "categories": ["biology"],
   "description": "",
-  "touchstones": [
+  "concepts": [
     "parasitism",
     "mutualism",
     "commensalism"

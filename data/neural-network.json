@@ -2,7 +2,7 @@
   "name": "Neural network",
   "categories": ["biology"],
   "description": "A network of interconnected nodes.",
-  "touchstones": [
+  "concepts": [
     "neurons",
     "connection weights",
     "back propagation / learning"

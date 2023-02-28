@@ -2,7 +2,7 @@
   "name": "Physical space",
   "categories": ["physics", "perception", "everyday experience"],
   "description": "",
-  "touchstones": [
+  "concepts": [
     "distance",
     "elevation",
     "maps"

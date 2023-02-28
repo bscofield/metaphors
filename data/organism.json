@@ -2,7 +2,7 @@
   "name": "Organism",
   "categories": ["biology"],
   "description": "",
-  "touchstones": [
+  "concepts": [
     "organ systems",
     "division of responsibility",
     "cell turnover",

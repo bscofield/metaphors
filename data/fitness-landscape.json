@@ -2,9 +2,12 @@
   "name": "Fitness landscape",
   "categories": ["biology", "visualization"],
   "description": "",
-  "touchstones": [
+  "concepts": [
     "fitness = height",
     "local maxima",
     "local minima"
+  ],
+  "related": [
+    "physical space"
   ]
 }

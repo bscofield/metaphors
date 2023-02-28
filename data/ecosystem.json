@@ -2,7 +2,7 @@
   "name": "Ecosystem",
   "categories": ["biology"],
   "description": "An ecosystem is a complex system built on the interaction of disparate species.",
-  "touchstones": [
+  "concepts": [
     "predation",
     "producers / consumers",
     "resilience",

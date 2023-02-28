@@ -10,12 +10,36 @@ const hydrate = () => {
     document.querySelector("#metaphor p#description").innerText = ""
   }
 
-  const touchstones = document.querySelector("#metaphor ul#touchstones");
-  touchstones.innerHTML = "";
-  if (metaphor.touchstones) {
-    for (const item of metaphor.touchstones.sort()) {
-      touchstones.innerHTML += "<li>"+item+"</li>"
+  const concepts = document.querySelector("#metaphor ul#concepts");
+  concepts.innerHTML = "";
+  if (metaphor.concepts) {
+    for (const item of metaphor.concepts.sort()) {
+      concepts.innerHTML += `<li>${item}</li>`
     }
+  }
+
+  const examples = document.querySelector("#metaphor ul#examples");
+  examples.innerHTML = "";
+  if (metaphor.examples) {
+    document.querySelector("#metaphor #examples-header").classList.remove("hidden")
+    for (const item of metaphor.examples.sort()) {
+      examples.innerHTML += `<li>${item}</li>`
+    }
+  } else {
+    document.querySelector("#metaphor #examples-header").classList.add("hidden")
+  }
+
+  const related = document.querySelector("#metaphor ul#related");
+  related.innerHTML = "";
+  if (metaphor.related) {
+    document.querySelector("#metaphor #related-header").classList.remove("hidden")
+    for (const item of metaphor.related.sort()) {
+      const key = item.toLowerCase()
+      console.log(1, item.toLowerCase(), 2)
+      related.innerHTML += `<li><a class="text-sky-600" href="#${key}" onclick='window.location.hash="${key}"; hydrate(); return false'>${item}</a></li>`
+    }
+  } else {
+    document.querySelector("#metaphor #related-header").classList.add("hidden")
   }
 }
 

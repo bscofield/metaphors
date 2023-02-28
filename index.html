@@ -15,19 +15,30 @@
   <div class=" w-3/4 mx-auto">
     <header class="flex justify-between items-center h-16">
       <span class="text-xl sm:text-2xl">Metaphors</span>
-      <a href="#" onclick="window.location.hash = ''; hydrate(); return false">♻️</a>
+      <a href="#" onclick="window.location.hash=''; hydrate(); return false">♻️</a>
     </header>
 
     <section id="metaphor">
       <a id="permalink" class="float-right text-4xl text-sky-600">#</a>
       <h2 class="leading-none"></h2>
 
-      <p id="description" class="my-4">
-      </p>
-      <p>
-        <h3 class="font-bold" title="Useful concepts to account for in applying the metaphor">Concepts</h3>
-        <ul class="list-outside list-disc ml-6" id="touchstones"></ul>
-      </p>
+      <p id="description" class="my-4"></p>
+
+      <div class="flex flex-row mt-8">
+        <div class="basis-1/2">
+          <h3 class="text-lg" title="Useful concepts to account for in applying the metaphor">Concepts</h3>
+          <ul class="list-outside list-disc ml-6" id="concepts"></ul>
+
+          <h3 class="text-lg mt-8" title="Examples of this metaphor" id="examples-header">Examples</h3>
+          <ul class="list-outside list-disc ml-6" id="examples"></ul>
+        </div>
+
+        <div class="basis-1/2">
+          <h3 class="text-lg" id="related-header">Related</h3>
+          <ul class="list-outside list-disc ml-6" id="related"></ul>
+        </div>
+
+      </div>
 
 
     </section>
