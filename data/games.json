@@ -1,0 +1,23 @@
+{
+  "name": "Games",
+  "categories": ["design"],
+  "description": "",
+  "concepts": [
+    "victory conditions",
+    "point systems",
+    "rules",
+    "game mechanics",
+    "players",
+    "avatars",
+    "turn-taking",
+    "randomness"
+  ],
+  "examples": [
+    "conversation",
+    "financial markets",
+    "fitness trackers"
+  ],
+  "related": [
+    "conflict"
+  ]
+}
