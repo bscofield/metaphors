@@ -1,0 +1,19 @@
+{
+  "name": "Music",
+  "categories": ["art"],
+  "description": "",
+  "concepts": [
+    "composition and performance",
+    "cover songs and standards",
+    "samples",
+    "practice",
+    "technical skill vs. artistry",
+    "soloists and ensembles",
+    "orchestration"
+  ],
+  "examples": [
+    "sports teams",
+    "design studios",
+    "unit testing frameworks"
+  ]
+}
