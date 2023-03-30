@@ -1,0 +1,22 @@
+{
+  "name": "Garden",
+  "categories": ["ecology", "craft"],
+  "description": "",
+  "concepts": [
+    "decorative vs. useful",
+    "pests",
+    "native plants vs. invasive species",
+    "weeds",
+    "pruning",
+    "planned vs. unplanned",
+    "seasonality"
+  ],
+  "examples": [
+    "digital gardens",
+    "publishers vs. aggregators",
+    "education"
+  ],
+  "related": [
+    "ecosystem"
+  ]
+}
